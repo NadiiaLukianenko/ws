@@ -13,7 +13,9 @@ pipeline {
     stage("test"){
       steps{
         echo 'test app'
-        sh './gradlew clean test'
+        withGradle() {
+          sh './gradlew clean test'
+        }
       }
     }
     stage("deploy"){
