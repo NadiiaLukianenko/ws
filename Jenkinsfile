@@ -13,6 +13,7 @@ pipeline {
     stage("test"){
       steps{
         echo 'test app'
+        sh './gradlew clean test'
       }
     }
     stage("deploy"){
