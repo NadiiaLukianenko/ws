@@ -1,8 +1,8 @@
-package test.example.ws;
+package tst.example.ws;
 
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
-import test.example.ws.model.Category;
+import tst.example.ws.model.Category;
 
 import java.util.List;
 

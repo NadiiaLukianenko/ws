@@ -1,0 +1,5 @@
+categoryPriority,regionPriority,receivedTime,expectedPriority
+1,1,0,3
+2,1,0,5
+0,100,0,100
+1,10,1000,1012

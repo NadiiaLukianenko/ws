@@ -1,4 +1,4 @@
-package test.example.ws.model;
+package tst.example.ws.model;
 
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +12,7 @@ public class Category {
 
     private String id;
     private String category;
+    private int categoryPriority;
 
     @Builder.Default
     private List<String> points = new ArrayList<>();

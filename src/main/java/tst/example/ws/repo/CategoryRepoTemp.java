@@ -1,9 +1,9 @@
-package test.example.ws.repo;
+package tst.example.ws.repo;
 
 import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.Level;
 import org.springframework.stereotype.Component;
-import test.example.ws.model.Category;
+import tst.example.ws.model.Category;
 
 import java.util.List;
 

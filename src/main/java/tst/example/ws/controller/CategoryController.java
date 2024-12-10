@@ -1,14 +1,14 @@
-package test.example.ws.controller;
+package tst.example.ws.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import test.example.ws.controller.exception.CategoryNotFoundException;
-import test.example.ws.controller.exception.CategoryUnprocessableException;
-import test.example.ws.model.Category;
-import test.example.ws.service.CategoryService;
+import tst.example.ws.controller.exception.CategoryNotFoundException;
+import tst.example.ws.controller.exception.CategoryUnprocessableException;
+import tst.example.ws.model.Category;
+import tst.example.ws.service.CategoryService;
 import java.util.List;
 
 @RequestMapping("/category")

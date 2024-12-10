@@ -1,12 +1,12 @@
-package test.example.ws.controller;
+package tst.example.ws.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import test.example.ws.controller.exception.CategoryNotFoundException;
-import test.example.ws.controller.exception.CategoryUnprocessableException;
+import tst.example.ws.controller.exception.CategoryNotFoundException;
+import tst.example.ws.controller.exception.CategoryUnprocessableException;
 
 @Slf4j
 @RestControllerAdvice

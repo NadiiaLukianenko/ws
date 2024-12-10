@@ -1,9 +1,9 @@
-package test.example.ws.service;
+package tst.example.ws.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import test.example.ws.model.Category;
-import test.example.ws.repo.CategoryRepoTemp;
+import tst.example.ws.model.Category;
+import tst.example.ws.repo.CategoryRepoTemp;
 
 import java.util.List;
 
